@@ -5,7 +5,7 @@ function initMap() {
 
   const map = new google.maps.Map(document.getElementById("map"), {
     center: loc,
-    zoom: 4,
+    zoom: 2,
   });
 
   const marker = new google.maps.Marker({
